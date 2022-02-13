@@ -1,10 +1,17 @@
-image {
+img {
   text-align: center !important;
+  width: 100% !important;
 }
 
 .center {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto;  
+  margin: auto;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
